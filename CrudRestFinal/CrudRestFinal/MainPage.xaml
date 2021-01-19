@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudRestFinal.MainPage"
+             Title="Trabajo Final CRUD - Rest Api">
+    <StackLayout        
+        Margin="10,20,10,10">
+        <ListView x:Name="MyListView" HasUnevenRows="True" ItemSelected="OnItemSelected">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <ViewCell>
+                        <Frame  CornerRadius="20"  HasShadow="True"    Margin="3">
+
+                            <StackLayout
+                                    Orientation="Vertical">
+                                <Grid
+                                    VerticalOptions="CenterAndExpand">
+                                    <Grid.ColumnDefinitions>
+                                        <ColumnDefinition Width="Auto"/>
+                                        <ColumnDefinition Width="Auto"/>
+                                    </Grid.ColumnDefinitions>
+
+                                    <Label 
+                                            Grid.Row="0"
+                                            Grid.Column="0"
+                                            Text="Nombre de producto: "
+                                            FontAttributes="Bold"/>
+
+                                    <Label
+                                            Grid.Row="0"
+                                            Grid.Column="1"
+                                            Text="{Binding Nombre}"/>
+
+                                    <Label
+                                            Grid.Row="1"
+                                            Grid.Column="0"
+                                            Text="Descrpcion "
+                                            FontAttributes="Bold"/>
+
+                                    <Label 
+                                            Grid.Row="1"
+                                            Grid.Column="1"
+                                            Text="{Binding Descripcion}"/>
+
+                                    <Label
+                                            Grid.Row="2"
+                                            Grid.Column="0"
+                                            Text="Precio: "
+                                            FontAttributes="Bold"/>
+
+                                    <Label 
+                                            Grid.Row="2"
+                                            Grid.Column="1"
+                                            Text="{Binding Precio}"/>
+
+                                    <Label
+                                            Grid.Row="3"
+                                            Grid.Column="0"
+                                            Text="Cantidad "
+                                            FontAttributes="Bold"/>
+
+                                    <Label
+                                            Grid.Row="3"
+                                            Grid.Column="1"
+                                            Text="{Binding Cantidad}"/>
+
+                                </Grid>
+                            </StackLayout>
+                        </Frame>
+                    </ViewCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+        <Button Grid.Row="0" Text="Agregar"  Clicked="OnAddItemClicked" BorderColor="#2b3c3c" BorderWidth="1" FontAttributes="Bold" BackgroundColor="#3498DB" BorderRadius="50" TextColor="White" HorizontalOptions="Center" WidthRequest="160" HeightRequest="70" Margin="0,0,20,22" VerticalOptions="End"/>
+
+       
+
+
+    </StackLayout>
+
+</ContentPage>

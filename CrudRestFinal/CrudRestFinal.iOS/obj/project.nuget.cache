@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "1uxRCE7DmtaSaCiI49hagG4DNAiQtHk7QPe62bqBrxO/Eu8SwiOY6LBVsICQbdGwuFFCaV2GnOZ46DYC1G17vQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\vilchez_2\\source\\repos\\CrudRestFinal\\CrudRestFinal\\CrudRestFinal.iOS\\CrudRestFinal.iOS.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\vilchez_2\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.essentials\\1.5.3.2\\xamarin.essentials.1.5.3.2.nupkg.sha512",
+    "C:\\Microsoft\\Xamarin\\NuGet\\xamarin.forms\\4.8.0.1451\\xamarin.forms.4.8.0.1451.nupkg.sha512"
+  ],
+  "logs": []
+}

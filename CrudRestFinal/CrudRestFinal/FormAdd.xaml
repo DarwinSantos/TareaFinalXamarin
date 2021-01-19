@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudRestFinal.FormAdd"
+             Title="Trabajo Final - Agregar Producto">
+    <StackLayout Margin="20">
+        <Label Text="Nombre" />
+        <Entry x:Name="nombre"  
+               Placeholder="ejm. Coca cola"/>
+        
+        <Label Text="Precio" />
+        <Entry x:Name="precio"
+               Placeholder="ejm. 10.00" Keyboard="Telephone" />
+        
+        <Label Text="Descripcion" />
+        <Entry x:Name="descripcion"  
+               Placeholder="ejm. La gaseosa mas ..." />
+
+        <Label Text="Cantidad" />
+        <Entry x:Name="cantidad" 
+               Placeholder="ejm. 7" Keyboard="Numeric" />
+
+
+        <Button Grid.Row="0"  Clicked="OnSaveButtonClicked" Text="Agregar"   BorderColor="#2b3c3c" BorderWidth="1" FontAttributes="Bold" BackgroundColor="#3498DB" BorderRadius="50" TextColor="White" HorizontalOptions="Center" WidthRequest="160" HeightRequest="70" Margin="0,0,20,22" VerticalOptions="End"/>
+        <Button Grid.Row="0" Text="Cancelar" Clicked="OnCancelButtonClicked" BorderColor="#2b3c3c" BorderWidth="1" FontAttributes="Bold" BackgroundColor="#CCD1D1" BorderRadius="50" TextColor="White" HorizontalOptions="Center" WidthRequest="160" HeightRequest="70" Margin="0,0,20,22" VerticalOptions="End"/>
+
+    </StackLayout>
+</ContentPage>

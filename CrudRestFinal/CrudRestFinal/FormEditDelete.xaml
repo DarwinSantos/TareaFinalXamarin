@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="CrudRestFinal.FormEditDelete"
+             Title="Trabajo Final Editar - eliminar">
+
+
+
+    <StackLayout Margin="20">
+
+        <Label Text="Id" />
+        <Entry x:Name="id" Text="{Binding Path=Id}" 
+               Placeholder="id" IsEnabled="false"/>
+
+        <Label Text="Nombre" />
+        <Entry x:Name="nombre" Text="{Binding Path=Nombre}" 
+               Placeholder="nombre" />
+
+        <Label Text="Precio" />
+        <Entry x:Name="precio" Text="{Binding Path=Precio}"
+               Placeholder="precio"  Keyboard="Telephone"/>
+
+        <Label Text="Descripcion" />
+        <Entry x:Name="descripcion" Text="{Binding Path=Descripcion}" 
+               Placeholder="descripcion" />
+
+        <Label Text="Cantidad" />
+        <Entry x:Name="cantidad" Text="{Binding Path=Cantidad}" 
+               Placeholder="cantidad" Keyboard="Numeric" />
+
+
+
+        <StackLayout Orientation="Horizontal">
+
+            <Button  Text="Editar"    Clicked="OnEditButtonClicked"    BorderColor="#2b3c3c" BorderWidth="0" FontAttributes="Bold" BackgroundColor="#3498DB" BorderRadius="50" TextColor="White"  WidthRequest="100" HeightRequest="60"  VerticalOptions="End" HorizontalOptions="FillAndExpand" />
+            <Button  Text="Eliminar"   Clicked="OnDeleteButtonClicked" BorderColor="#2b3c3c" BorderWidth="0" FontAttributes="Bold" BackgroundColor="#E74C3C" BorderRadius="50" TextColor="White"  WidthRequest="100" HeightRequest="60"  VerticalOptions="End" HorizontalOptions="FillAndExpand" />
+            <Button  Text="Cancelar"  Clicked="OnCancelButtonClicked" BorderColor="#2b3c3c" BorderWidth="0" FontAttributes="Bold" BackgroundColor="#CCD1D1" BorderRadius="50" TextColor="White"  WidthRequest="100" HeightRequest="60"  VerticalOptions="End" HorizontalOptions="FillAndExpand" />
+
+  
+            
+        </StackLayout>
+
+
+    </StackLayout>
+    
+</ContentPage>

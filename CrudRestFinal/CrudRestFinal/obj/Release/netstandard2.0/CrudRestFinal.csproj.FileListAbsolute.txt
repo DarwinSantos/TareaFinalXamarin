@@ -1,0 +1,15 @@
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\bin\Release\netstandard2.0\CrudRestFinal.deps.json
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\bin\Release\netstandard2.0\CrudRestFinal.dll
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\bin\Release\netstandard2.0\ref\CrudRestFinal.dll
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\bin\Release\netstandard2.0\CrudRestFinal.pdb
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\App.xaml.g.cs
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\FormAdd.xaml.g.cs
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\FormEditDelete.xaml.g.cs
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\MainPage.xaml.g.cs
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\CrudRestFinal.AssemblyInfoInputs.cache
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\CrudRestFinal.AssemblyInfo.cs
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\CrudRestFinal.csproj.CoreCompileInputs.cache
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\XamlC.stamp
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\CrudRestFinal.dll
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\ref\CrudRestFinal.dll
+C:\Users\vilchez_2\source\repos\CrudRestFinal\CrudRestFinal\CrudRestFinal\obj\Release\netstandard2.0\CrudRestFinal.pdb
